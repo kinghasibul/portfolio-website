@@ -349,7 +349,6 @@ textarea {
 .nav-link {
   font-size: var(--large-font-size);
   transition: color 0.3s --transition;
-  margin-left: 15%;
 }
 .nav-link:hover {
   color: var(--first-color);
