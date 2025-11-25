@@ -664,25 +664,25 @@ textarea {
   border-radius: 25px;
   box-shadow: 0 0 .6rem var(--shadow-color);
  }
-.skill-bar .bar .excel {
-  width: 72%;
-  animation: excel 2s;
+.skill-bar .bar .max {
+  width: 95%;
+  animation: max 2s;
 }
-.skill-bar .bar .python {
-  width: 80%;
-  animation: python 3s;
-}
-.skill-bar .bar .pandas {
-  width: 90%;
-  animation: pandas 4s;
-}
-.skill-bar .bar .numpy {
-  width: 62%;
-  animation: numpy 5s;
-}
-.skill-bar .bar .sql {
+.skill-bar .bar .cad {
   width: 85%;
-  animation: sql 5s;
+  animation: cad 3s;
+}
+.skill-bar .bar .sketcup {
+  width: 80%;
+  animation: sketcup 4s;
+}
+.skill-bar .bar .lumion {
+  width: 62%;
+  animation: lumion 5s;
+}
+.skill-bar .bar .unreal {
+  width: 75%;
+  animation: unreal 5s;
 }
 
 /* Skill Right */
@@ -1148,15 +1148,23 @@ textarea {
 }
 
 /* =========== Key Frames Skill Section =========== */
-@keyframes excel {
+@keyframes max {
   0% {
     width: 0%;
   }
   100% {
-    width: 72%;
+    width: 95%;
   }
 }
-@keyframes python {
+@keyframes cad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes sketcup {
   0% {
     width: 0%;
   }
@@ -1164,15 +1172,7 @@ textarea {
     width: 80%;
   }
 }
-@keyframes pandas {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@keyframes numpy {
+@keyframes lumion {
   0% {
     width: 0%;
   }
@@ -1180,12 +1180,12 @@ textarea {
     width: 62%;
   }
 }
-  @keyframes sql {
+  @keyframes unreal {
   0% {
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 75%;
   }
 }
 @keyframes glow {
